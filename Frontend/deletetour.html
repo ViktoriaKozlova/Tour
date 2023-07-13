@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tour POST</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="one-block">
+      <table>
+        <tr>
+          <td class="tablea">
+            <a href="adminContract.html" class="link">Контракти</a>
+          </td>
+          <td class="tablea">
+            <a href="touradd.html" class="link">Додавання туру</a>
+          </td>
+          <td class="tablea">
+            <a href="deletetour.html" class="link">Видалення туру</a>
+          </td>
+          <td class="tablea">
+            <a href="tour.html" class="link">Тури</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <h1>Форма видалення туру</h1>
+    <div class="tour">
+      <form id="delete-tour-form" style="margin-left: 1000px">
+        <label for="DELETE-IdTour"> Id:</label>
+        <input
+          class="windowdelete"
+          required
+          id="DELETE-IdTour"
+          name="IdTour"
+        /><br />
+        <input class="but" type="submit" value="Save" />
+      </form>
+    </div>
+
+    <script src="../services/tour.js"></script>
+    <script src="../controller/touradd.js"></script>
+  </body>
+</html>

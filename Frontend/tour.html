@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="one-block">
+  
+      <table>
+        <tr>
+          <div >
+       
+          <td class="tablea"> <a href="adminContract.html" class="link">Контракти</a> </td>
+          <td class="tablea">
+            <a href="touradd.html" class="link">Додавання туру</a>
+          </td>
+          <td class="tablea">
+            <a href="deletetour.html" class="link">Видалення туру</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="Contract">
+        <h1>Всі тури турагенції</h1>
+        <div class="tour">
+            <table id="getTour">
+              <tr>
+                <td class="tab">Id</td>
+                <td class="tab">DepartureDate</td>
+                <td class="tab">ArrivalDate</td>
+                <td class="tab">AmountSeats</td>
+                <td class="tab">NumberTypeTour</td>
+                <td class="tab">Price</td>
+                <td class="tab">description</td>
+                <td class="tab">NumberTourOperator</td>
+                <td class="tab">NumberLocation</td>
+              </tr>
+            </table>
+          </div>
+    <script src="./services/tour.js"></script>
+    <script src="./controllers/tourcontroller.js"></script>
+  </body>
+</html>

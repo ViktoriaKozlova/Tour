@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tour POST</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="one-block">
+      <table>
+        <tr>
+          <td class="tablea">
+            <a href="adminContract.html" class="link">Контракти</a>
+          </td>
+          <td class="tablea">
+            <a href="touradd.html" class="link">Додавання туру</a>
+          </td>
+          <td class="tablea">
+            <a href="deletetour.html" class="link">Видалення туру</a>
+          </td>
+          <td class="tablea">
+            <a href="tour.html" class="link">Тури</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <h1>Форма додавання туру</h1>
+    <div class="tour">
+      <form id="add-tour-form" style="margin-left: 1000px">
+        <label class="labelpost" for="POST-IdTour" style="width: 300px">
+          Id:</label
+        >
+        <input class="window" required id="POST-IdTour" name="IdTour" /><br />
+        <label class="labelpost" for="POST-DepartureDate" style="width: 300px">
+          DepartureDate:</label
+        >
+        <input
+          class="window"
+          required
+          id="POST-DepartureDate"
+          name="DepartureDate"
+        /><br />
+        <label class="labelpost" for="POST-ArrivalDate" style="width: 300px">
+          ArrivalDate:</label
+        >
+        <input
+          class="window"
+          required
+          id="POST-ArrivalDate"
+          name="ArrivalDate"
+        /><br />
+        <label class="labelpost" for="POST-AmountSeats" style="width: 300px">
+          AmountSeats:</label
+        >
+        <input
+          class="window"
+          required
+          id="POST-AmountSeats"
+          name="AmountSeats"
+        /><br />
+        <label class="labelpost" for="POST-NumberTypeTour" style="width: 300px">
+          NumberTypeTour:</label
+        >
+        <input
+          class="window"
+          required
+          id="POST-NumberTypeTour"
+          name="NumberTypeTour"
+        /><br />
+        <label class="labelpost" for="POST-Price" style="width: 300px">
+          Price:</label
+        >
+        <input class="window" required id="POST-Price" name="Price" /><br />
+        <label class="labelpost" for="POST-Description" style="width: 300px"
+          >Description:</label
+        >
+        <input
+          class="window"
+          required
+          id="POST-Description"
+          name="Description"
+        /><br />
+
+        <label
+          class="labelpost"
+          for="POST-NumberTourOperator"
+          style="width: 300px"
+        >
+          NumberTourOperator:</label
+        >
+        <input
+          class="window"
+          required
+          id="POST-NumberTourOperator"
+          name="NumberTourOperator"
+        /><br />
+        <label class="labelpost" for="POST-NumberLocation" style="width: 300px">
+          NumberLocation:</label
+        >
+        <input
+          class="window"
+          required
+          id="POST-NumberLocation"
+          name="NumberLocation"
+        /><br />
+        <input class="but" type="submit" value="Save" />
+      </form>
+    </div>
+    <script src="../services/tour.js"></script>
+    <script src="../controller/touradd.js"></script>
+  </body>
+</html>

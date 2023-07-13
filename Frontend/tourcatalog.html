@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="one-block">
+      <table>
+        <tr>
+          <td class="tablea"> <a href="home.html" class="link">Головна</a> </td>
+            <td class="tablea"> <a href="tourcatalog.html" class="link">Каталог турів</a> </td>
+            <td class="tablea"> <a href="registration.html" class="link">Авторизація</a> </td>
+         
+          </td>
+        </tr>
+      </table>
+    </div>
+    <h1 class="title">Каталог турів</h1>
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Усі</button>
+      <button class="btn" onclick="filterSelection('UA')"> Україна</button>
+      <button class="btn" onclick="filterSelection('USA')"> США</button>
+      <button class="btn" onclick="filterSelection('GE')"> Греція</button>
+      <button class="btn" onclick="filterSelection('FR')"> Франція</button>
+      <button class="btn" onclick="filterSelection('I')"> Іспанія</button>
+    </div>
+    <h1></h1>
+    <div class="container">
+      <div class="column">
+      <div class="filterDiv UA">
+      <img
+        src="https://planetofhotels.com/guide/sites/default/files/styles/node__blog_post__bp_banner/public/2022-03/kyiv.jpg"
+      />
+      <h1>Київ</h1>
+      <a href="tour1.html">
+        <button type="button" class="button2"><h2>Детально</h2></button>
+      </a> </div>
+
+      <p></p>
+      <div class="filterDiv USA">
+      <img
+        src="https://russiantouramerica.com/wp-content/uploads/2018/08/Nju-Jork-foto-free-1000x700.jpg"
+      />
+      <h1>Ню Йорк</h1>
+      <a href="tour2.html">
+        <button type="button" class="button2"><h2>Детально</h2></button>
+      </a> </div>
+
+      <p></p>
+      <div class="filterDiv GE">
+      <img
+        src="https://planetofhotels.com/guide/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/rome_0.jpg"
+      />
+
+      <h1>Рим</h1>
+      <a href="tour4.html">
+        <button type="button" class="button2"><h2>Детально</h2></button>
+      </a> </div>
+
+   
+      <div class="filterDiv FR">
+      <img
+        src="https://www.10mest.com/photos/france-paris-eiffel-tower-and-trocadero-gardens-1280x720.jpg"
+      />
+      <h1>Париж</h1>
+      <a href="tour3.html">
+        <button type="button" class="button2"><h2>Детально</h2></button>
+      </a> </div>
+
+      <p></p>
+      <div class="filterDiv I">
+      <img
+        src="https://minfin.com.ua/img/2023/106422773/9e561b2ddc19d7548d32df548d18b743.jpeg"
+      />
+      <h1>Мадрид</h1>
+      <a href="tour5.html">
+        <button type="button" class="button2"><h2>Детально</h2></button>
+      </a> </div>
+    </div>    <script src="main.js"></script>
+  </body>
+</html>

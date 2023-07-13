@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="one-block">
+      <table>
+        <tr>
+          <td class="tablea"><a href="home.html" class="link">Головна</a></td>
+          <td class="tablea">
+            <a href="tourcatalog.html" class="link">Каталог турів</a>
+          </td>
+          <td class="tablea">
+            <a href="registration.html" class="link">Авторизація</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="column">
+      <h1>Ню Йорк</h1>
+
+      <img
+        src="https://russiantouramerica.com/wp-content/uploads/2018/08/Nju-Jork-foto-free-1000x700.jpg"
+        style="width: auto; height: auto"
+      />
+    </div>
+    <div class="column">
+      <p id="getTour">departureDate:</p>
+      <p id="getTour1">arrivalDate:</p>
+      <p id="getTour2">amountSeats:</p>
+      <p id="getTour3">price:</p>
+      <p id="getTour4">description:</p>
+
+      <table>
+        <tr>
+          <td>
+            <button type="button1" class="button1">
+              <p>Купити тур онлайн</p>
+            </button>
+          </td>
+
+          <td>
+            <button type="button1" class="button1">
+              <p>Відправити заявку</p>
+            </button>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="./services/tour.js"></script>
+    <script src="./controllers/tourcontroller2.js"></script>
+  </body>
+</html>
